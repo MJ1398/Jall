@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Ball.gd" type="Script" id=1]
+[ext_resource path="res://assets/ballBlue_10.png" type="Texture" id=2]
+
+[node name="Ball" type="Node2D" index="0"]
+
+position = Vector2( 542.809, 255.538 )
+script = ExtResource( 1 )
+_sections_unfolded = [ "Material", "Transform", "Z Index" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+
+
